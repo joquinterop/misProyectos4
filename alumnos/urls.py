@@ -7,6 +7,6 @@ urlpatterns = [
     path('listadoSQL', views.listadoSQL, name='listadoSQL'),
     path('listado_generos', views.lista_generos, name='lista_generos'),
     path('crud', views.crud, name='crud'),
-    path('alumnosAdd', views.alumnosAdd, name='alumnoAdd'),
+    path('alumnosAdd', views.alumnosAdd, name='alumnosAdd'),
 
 ]
