@@ -8,5 +8,4 @@ urlpatterns = [
     path('listado_generos', views.lista_generos, name='lista_generos'),
     path('crud', views.crud, name='crud'),
     path('alumnosAdd', views.alumnosAdd, name='alumnosAdd'),
-
 ]
